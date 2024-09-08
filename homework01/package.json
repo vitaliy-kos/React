@@ -1,7 +1,7 @@
 {
   "name": "homework01",
   "version": "0.1.0",
-  "homepage": "https://vitaliy-kos.github.io/React/homework01/",
+  "homepage": "https://vitaliy-kos.github.io/React/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
