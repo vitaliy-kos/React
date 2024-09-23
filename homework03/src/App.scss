@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.TemperatureConverter {
+  ul {
+    list-style: none;
+  }
+  .input:last-of-type {
+    margin-left: 50px;
+  }
+}
+.TodoList {
+  margin-top: 100px;
+  ul {
+    list-style: none;
+  }
+  .addTask {
+    .addTaskField {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+
+      input {
+        width: 400px;
+      }
+    }
+  }
+  .tasksList {
+    .card {
+      border: 1px solid grey;
+      padding: 10px 50px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
