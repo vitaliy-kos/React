@@ -1,0 +1,13 @@
+#root {
+  width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}/*# sourceMappingURL=App.css.map */
