@@ -1,0 +1,57 @@
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.addProduct {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 0px 20px 20px 20px;
+  width: 400px;
+  margin: auto;
+}
+.addProduct form {
+  display: flex;
+  flex-direction: column;
+}
+.addProduct form .MuiFormControl-root, .addProduct form .MuiFormControlLabel-root {
+  margin-bottom: 20px;
+}
+.addProduct form input[type=submit] {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #fff;
+  font-size: 16px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.addProduct form .MuiAlert-root {
+  margin-bottom: 20px;
+}
+
+.productList {
+  margin-top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.productList .product {
+  width: 29%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.productList .product form {
+  display: flex;
+  flex-direction: column;
+}
+.productList .product form .MuiFormControl-root, .productList .product form .MuiFormControlLabel-root {
+  margin-bottom: 20px;
+}
+.productList .product form .MuiButton-root {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=App.css.map */
