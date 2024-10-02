@@ -1,0 +1,1 @@
+export const sizesSorted = ["XS", "S", "M", "L", "XL"];
